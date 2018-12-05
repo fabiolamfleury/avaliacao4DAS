@@ -1,0 +1,18 @@
+a) 
+Framework de componentes é a estrutura que fornece a implementação de serviços que dão suporte aos modelos de componentes, eles representam a base  onde os padrões e convenções do modelo de componentes são implementados.
+
+modelo de componentes é o nome dado do conjunto de padrões e convenções das quais o componentes devem seguir, espera-se que um modelo de componentes defina dos seguintes padrões e convenções 
+- tipos de componentes: definição em termos de interface que implementam, onde cada interface em um componente representa um tipo
+- Formas de interação: definição da forma de interação entre os componentes e entre componentes e o framework de componentes, através da especificação de como os componentes são localizados, o protocolo de comunicação usado e como a qualidade dos serviços é alcançada.
+- Definição de recursos: a composição dos componentes é realizada pela ligação dos componentes a um ou mais recursos onde um recurso pode ser tanto provido por um framework de componente como por algum componente utilizado no framework.
+
+componentes de software :  é dito como componente de software partes de um software que é identificável como reusável, para que possam ser considerados reusáveis devem ser autocontidos, facilmente identificáveis que descrevem e executam funções específicas e têm interfaces claras, documentação apropriada e uma condição de reuso definida. 
+ 
+
+b)
+Framework de componentes tem por finalidade gerenciar os recursos compartilhados entre os componentes e fornece mecanismos que permitam a interação entre eles, as infra estruturas fornecidas por eles impõe restrições a serem seguidas no projeto que fazer uso deles, essas restrições devem ser consideradas pelo modelo de componentes, os frameworks de componentes ainda devem ser responsáveis por pelo menos duas destas categorias de serviços empacotamento, distribuição, segurança, gerenciamento de transações e comunicação assíncrona.
+
+modelo de componentes  definir arquitetura do sistema onde são descritos os padrões e convenções impostas aos componentes do sistema de modo a descrever a função de cada um e como eles interagem entre si.
+
+componentes de software : Um componente deve provê serviços  que muitos outros componentes devem acessar. Os serviços que os componentes oferecem a outros são feitos por algum desenvolvedor que implementa o componente, expressando-o em termos de código e documentando para permitir a reutilização e garantir que ele satisfaça o que é descrito em sua especificação.
+
